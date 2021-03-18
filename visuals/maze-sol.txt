@@ -1,0 +1,96 @@
+Node Selected: R0
+Possible Node to Travel:  B16
+node at the end of possible path:  B16(f=195.462) 
+*****************************************
+Node Selected: B16
+Possible Node to Travel:  R25 R61
+node at the end of possible path:  R25(f=202.0) R61(f=223.777) 
+*****************************************
+Node Selected: R25
+Possible Node to Travel:  B16
+node at the end of possible path:  R61(f=223.777) 
+*****************************************
+Node Selected: R61
+Possible Node to Travel:  B53 B45 B37 B29 B13 B5
+node at the end of possible path:  B53(f=376.701) B45(f=417.317) B37(f=450.5) B29(f=477.964) B13(f=552.908) B5(f=554.886) 
+*****************************************
+Node Selected: B53
+Possible Node to Travel:  R61
+node at the end of possible path:  B45(f=417.317) B37(f=450.5) B29(f=477.964) B13(f=552.908) B5(f=554.886) 
+*****************************************
+Node Selected: B45
+Possible Node to Travel:  R61
+node at the end of possible path:  B37(f=450.5) B29(f=477.964) B13(f=552.908) B5(f=554.886) 
+*****************************************
+Node Selected: B37
+Possible Node to Travel: 
+node at the end of possible path:  B29(f=477.964) B13(f=552.908) B5(f=554.886) 
+*****************************************
+Node Selected: B29
+Possible Node to Travel: 
+node at the end of possible path:  B13(f=552.908) B5(f=554.886) 
+*****************************************
+Node Selected: B13
+Possible Node to Travel: 
+node at the end of possible path:  B5(f=554.886) 
+*****************************************
+Node Selected: B5
+Possible Node to Travel:  R3 R1 R0
+node at the end of possible path:  R3(f=560.992) R1(f=564.716) 
+*****************************************
+Node Selected: R3
+Possible Node to Travel:  B2
+node at the end of possible path:  B2(f=562.228) R1(f=564.716) 
+*****************************************
+Node Selected: B2
+Possible Node to Travel:  R11 R20 R38
+node at the end of possible path:  R38(f=562.241) R11(f=562.434) R20(f=562.954) R1(f=564.716) 
+*****************************************
+Node Selected: R38
+Possible Node to Travel:  B30 B22 B14
+node at the end of possible path:  R11(f=562.434) R20(f=562.954) R1(f=564.716) B30(f=589.851) B22(f=597.752) B14(f=665.086) 
+*****************************************
+Node Selected: R11
+Possible Node to Travel:  B4
+node at the end of possible path:  R20(f=562.954) B4(f=564.589) R1(f=564.716) B30(f=589.851) B22(f=597.752) B14(f=665.086) 
+*****************************************
+Node Selected: R20
+Possible Node to Travel:  B18 B17 B16
+node at the end of possible path:  B4(f=564.589) R1(f=564.716) B18(f=565.524) B17(f=568.117) B30(f=589.851) B22(f=597.752) B14(f=665.086) 
+*****************************************
+Node Selected: B4
+Possible Node to Travel:  R6
+node at the end of possible path:  R1(f=564.716) B18(f=565.524) B17(f=568.117) R6(f=572.557) B30(f=589.851) B22(f=597.752) B14(f=665.086) 
+*****************************************
+Node Selected: R1
+Possible Node to Travel: 
+node at the end of possible path:  B18(f=565.524) B17(f=568.117) R6(f=572.557) B30(f=589.851) B22(f=597.752) B14(f=665.086) 
+*****************************************
+Node Selected: B18
+Possible Node to Travel: 
+node at the end of possible path:  B17(f=568.117) R6(f=572.557) B30(f=589.851) B22(f=597.752) B14(f=665.086) 
+*****************************************
+Node Selected: B17
+Possible Node to Travel: 
+node at the end of possible path:  R6(f=572.557) B30(f=589.851) B22(f=597.752) B14(f=665.086) 
+*****************************************
+Node Selected: R6
+Possible Node to Travel:  B14 B22 B30 B54 O
+node at the end of possible path:  O(f=572.557) B14(f=572.572) B22(f=573.239) B30(f=573.338) B54(f=575.344) 
+*****************************************
+Node Selected: O
+Possible Node to Travel: 
+node at the end of possible path:  B14(f=572.572) B22(f=573.239) B30(f=573.338) B54(f=575.344) 
+*****************************************
+Final Solution is: 
+R0 to B16: 1
+B16 to R61: 1
+R61 to B5: 1
+B5 to R3: 1
+R3 to B2: 1
+B2 to R11: 1
+R11 to B4: 1
+B4 to R6: 1
+R6 to O: 1
+**************************************************
+Total path distance: 9 

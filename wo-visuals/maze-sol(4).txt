@@ -1,0 +1,45 @@
+Node Selected: R20
+Possible Node to Travel:  B18 B17 B16
+node at the end of possible path:  B16(f=67.738) B18(f=74.444) B17(f=171.843) 
+*****************************************
+Node Selected: B16
+Possible Node to Travel:  R25 R61
+node at the end of possible path:  B18(f=74.444) R25(f=155.969) B17(f=171.843) R61(f=363.168) 
+*****************************************
+Node Selected: B18
+Possible Node to Travel: 
+node at the end of possible path:  R25(f=155.969) B17(f=171.843) R61(f=363.168) 
+*****************************************
+Node Selected: R25
+Possible Node to Travel:  B17 B9
+node at the end of possible path:  B9(f=164.441) B17(f=171.843) R61(f=363.168) 
+*****************************************
+Node Selected: B9
+Possible Node to Travel:  R0
+node at the end of possible path:  B17(f=171.843) R0(f=194.007) R61(f=363.168) 
+*****************************************
+Node Selected: B17
+Possible Node to Travel: 
+node at the end of possible path:  R0(f=194.007) R61(f=363.168) 
+*****************************************
+Node Selected: R0
+Possible Node to Travel:  B16 B63
+node at the end of possible path:  B63(f=203.426) R61(f=363.168) 
+*****************************************
+Node Selected: B63
+Possible Node to Travel:  R65 R67 R68 O
+node at the end of possible path:  O(f=203.426) R68(f=219.926) R61(f=363.168) R65(f=593.73) R67(f=654.096) 
+*****************************************
+Node Selected: O
+Possible Node to Travel: 
+node at the end of possible path:  R68(f=219.926) R61(f=363.168) R65(f=593.73) R67(f=654.096) 
+*****************************************
+Final Solution is: 
+R20 to B16: 24.0
+B16 to R25: 61.131
+R25 to B9: 41.231
+B9 to R0: 15.033
+R0 to B63: 52.811
+B63 to O: 9.22
+**************************************************
+Total path distance: 203.426 

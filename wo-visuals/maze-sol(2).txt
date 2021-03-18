@@ -1,0 +1,92 @@
+Node Selected: R20
+Possible Node to Travel:  B18 B17 B16
+node at the end of possible path:  B18(f=2) B17(f=2) B16(f=2) 
+*****************************************
+Node Selected: B18
+Possible Node to Travel: 
+node at the end of possible path:  B17(f=2) B16(f=2) 
+*****************************************
+Node Selected: B17
+Possible Node to Travel: 
+node at the end of possible path:  B16(f=2) 
+*****************************************
+Node Selected: B16
+Possible Node to Travel:  R25 R61
+node at the end of possible path:  R25(f=3) R61(f=3) 
+*****************************************
+Node Selected: R25
+Possible Node to Travel:  B17 B9
+node at the end of possible path:  R61(f=3) B9(f=4) 
+*****************************************
+Node Selected: R61
+Possible Node to Travel:  B53 B45 B37 B29 B13 B5
+node at the end of possible path:  B9(f=4) B53(f=4) B45(f=4) B37(f=4) B29(f=4) B13(f=4) B5(f=4) 
+*****************************************
+Node Selected: B9
+Possible Node to Travel:  R0
+node at the end of possible path:  B53(f=4) B45(f=4) B37(f=4) B29(f=4) B13(f=4) B5(f=4) R0(f=5) 
+*****************************************
+Node Selected: B53
+Possible Node to Travel:  R61 R68
+node at the end of possible path:  B45(f=4) B37(f=4) B29(f=4) B13(f=4) B5(f=4) R0(f=5) R68(f=5) 
+*****************************************
+Node Selected: B45
+Possible Node to Travel:  R61 R68
+node at the end of possible path:  B37(f=4) B29(f=4) B13(f=4) B5(f=4) R0(f=5) R68(f=5) 
+*****************************************
+Node Selected: B37
+Possible Node to Travel:  R23
+node at the end of possible path:  B29(f=4) B13(f=4) B5(f=4) R0(f=5) R68(f=5) R23(f=5) 
+*****************************************
+Node Selected: B29
+Possible Node to Travel: 
+node at the end of possible path:  B13(f=4) B5(f=4) R0(f=5) R68(f=5) R23(f=5) 
+*****************************************
+Node Selected: B13
+Possible Node to Travel: 
+node at the end of possible path:  B5(f=4) R0(f=5) R68(f=5) R23(f=5) 
+*****************************************
+Node Selected: B5
+Possible Node to Travel:  R3 R1 R0
+node at the end of possible path:  R0(f=5) R68(f=5) R23(f=5) R3(f=5) R1(f=5) 
+*****************************************
+Node Selected: R0
+Possible Node to Travel:  B16 B63
+node at the end of possible path:  R68(f=5) R23(f=5) R3(f=5) R1(f=5) B63(f=6) 
+*****************************************
+Node Selected: R68
+Possible Node to Travel:  B69 O
+node at the end of possible path:  R23(f=5) R3(f=5) R1(f=5) B63(f=6) B69(f=6) O(f=6) 
+*****************************************
+Node Selected: R23
+Possible Node to Travel:  B15
+node at the end of possible path:  R3(f=5) R1(f=5) B63(f=6) B69(f=6) O(f=6) B15(f=6) 
+*****************************************
+Node Selected: R3
+Possible Node to Travel:  B2
+node at the end of possible path:  R1(f=5) B63(f=6) B69(f=6) O(f=6) B15(f=6) B2(f=6) 
+*****************************************
+Node Selected: R1
+Possible Node to Travel: 
+node at the end of possible path:  B63(f=6) B69(f=6) O(f=6) B15(f=6) B2(f=6) 
+*****************************************
+Node Selected: B63
+Possible Node to Travel:  R65 R67 R68 O
+node at the end of possible path:  B69(f=6) O(f=6) B15(f=6) B2(f=6) R65(f=7) R67(f=7) 
+*****************************************
+Node Selected: B69
+Possible Node to Travel: 
+node at the end of possible path:  O(f=6) B15(f=6) B2(f=6) R65(f=7) R67(f=7) 
+*****************************************
+Node Selected: O
+Possible Node to Travel: 
+node at the end of possible path:  B15(f=6) B2(f=6) R65(f=7) R67(f=7) 
+*****************************************
+Final Solution is: 
+R20 to B16: 1
+B16 to R61: 1
+R61 to B53: 1
+B53 to R68: 1
+R68 to O: 1
+**************************************************
+Total path distance: 5 
